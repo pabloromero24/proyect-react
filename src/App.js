@@ -1,7 +1,7 @@
 import imageRickMorty from "./img/rick-morty.png";
 import './App.css';
 import { useState } from "react";
-import Characters from "./components/Characters";
+import Characters from "./components/Characters.js";
 
 function App() {
   const [characters, setCharacters] = useState(null);
